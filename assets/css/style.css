@@ -84,7 +84,7 @@ a:visited {
     content: '';
     display: block;
     height: 2px;
-    background-color: #777777;
+    background-color: #777777; 
     background: linear-gradient(to left, rgba(255, 255, 255), rgba(125, 125, 125), rgba(255, 255, 255));
     bottom: -20px;
 }
@@ -105,14 +105,15 @@ header>h1 {
 
 #btn-more {
     position: absolute;
-    bottom: 80px;
+    bottom: calc(50% - 200px);
+    margin-top: 30px;
     font-size: 3em;
     color: #d3d3d3;
     transition: font-size 300ms, color 300ms;
 }
 
 #btn-more:hover {
-    font-size: 3.5em;
+    font-size: 3.1em;
     color: #F44336;
 }
 
