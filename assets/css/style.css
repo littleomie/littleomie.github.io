@@ -105,7 +105,7 @@ header>h1 {
 
 #btn-more {
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     font-size: 3em;
     color: #d3d3d3;
     transition: font-size 300ms, color 300ms;
