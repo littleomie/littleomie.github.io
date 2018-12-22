@@ -1,14 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <title>Romil Onin</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=1">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.6.3-web/css/all.min.css">
 </head>
+
 <body>
-    <h1>Romil Onin</h1>
+    <header>
+        <h1 class="center">Romil Onin</h1>
+        <h3 class="thin center">I'm a full-stack web developer based in Davao City, Philippines.</h3>
+
+        <ul class="social">
+            <li><a class="linkedin" href="https://linkedin.com/in/romilonin/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="skype" href="skype:romil.pvs?userinfo"><i class="fab fa-skype"></i></a></li>
+            <li><a class="messenger" href="http://m.me/littleomie"><i class="fab fa-facebook-messenger"></i></a></li>
+            <li><a class="email" href="mailto:iamromilonin@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+
+        <a href="#main" id="btn-more"><i class="fa fa-chevron-circle-down"></i></a>
+    </header>
+
+    <main id="main">
+        <h2 class="center">Projects</h2>
+        <p class="center thin">Things I did so far in my 3 years as a dev.</p>
+
+        <div class="divider"></div>
+
+        <section>
+            <h3>Websites</h3>
+            <p class="thin">Converted to HTML from PSD's and built in a custom CMS. uses Bootstrap, Revolution Slider,
+                Owl Slider, jQuery, Font Awesome, and native CSS.</p>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/images/skymax.jpg" alt="Skymax" class="thumb">
+                    <h4 class="title"><a href="https://www.skymaxcenter.com/">Skymax</a></h4>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/alpscreative.jpg" alt="Alps Creative" class="thumb">
+                    <h4 class="title"><a href="http://www.alpscreative.com/">Alps Creative</a></h4>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/kitchenventures.jpg" alt="Kitchen Ventures" class="thumb">
+                    <h4 class="title"><a href="http://www.alpscreative.com/kv/">Kitchen Ventures</a></h4>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/mks.jpg" alt="Modern Kitchen Supplies" class="thumb">
+                    <h4 class="title"><a href="http://www.alpscreative.com/mks/">Modern Kitchen Supplies</a></h4>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Restoring from Archive to Wordpress</h3>
+            <p class="thin">I've built a Crawler + Purger, which crawls files from <a href="https://archive.org/web/">Wayback
+                    Machine</a>, cleans and restores the original files which then be converted into a Wordpress theme.<br><small
+                    class="thin">*Heads up! most of these sites are decade old, so it may not be as pleasing to the eye
+                    as expected.</small></p>
+
+            <div class="notif">
+                Unfortunately, I cannot the put site links here. If you need samples, I can send the links privately.
+            </div>
+        </section>
+
+        <section>
+            <h3>Back-end Projects</h3>
+
+            <article>
+                <h4>SEO Report Generation and Scheduling System</h4>
+                <p class="thin">Automatically generates SEO reports and sends and email with attached PDF to clients.
+                    Fetches data using <a href="http://www.micrositemasters.com/">Microsite Masters</a> API.</p>
+
+                <ul class="tags">
+                    <li>MVC</li>
+                    <li>PHP</li>
+                    <li>mySQL</li>
+                    <li>Javascript/jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>Ace Admin Template</li>
+                    <li>FPDF</li>
+                    <li>PhpMailer</li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>CRM Modules</h4>
+                <p class="thin">Created Modules (Product Management, Quotation, Invoicing) in an existing CRM System.
+                    Product Management Module allows management of: Product Details, Tabs, Images, File Attachements,
+                    Pricing, Inventory, Billing Options, and an Advance Options than can cater complex product needs
+                    (Tier Pricing, Conditional Pricing). Quotation Modules generates quotation based on orders,
+                    features includes: Email sending, PDF generation, Signature and Company Stamp capturing. Invoicing
+                    Module features invoicing and billing management, auto generation of recurring invoices and sending
+                    it to clients.</p>
+
+                <ul class="tags">
+                    <li>MVC</li>
+                    <li>PHP</li>
+                    <li>mySQL</li>
+                    <li>Javascript/jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>MPDF</li>
+                    <li>PhpMailer</li>
+                    <li>PhantomJS and CasperJS for Testing</li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>API's</h4>
+                <p class="thin">Tried working with these external API's.</p>
+                <ul class="tags warning">
+                    <li>Microsite Masters</li>
+                    <li>Amazon Aws</li>
+                    <li>Facebook Graph</li>
+                    <li>Google Auth</li>
+                    <li>Google Maps</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Yelp Reviews</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>More about me ...</h2>
+            <p class="thin">I have a Bachelors Degree in Computer Science, I <strong>almost</strong> graduated in
+                Bachelor in Industrial Technology (major in Electronics) which is if I did, I may not took CS. Also,
+                I'm currently taking my MBA (Corporate Management).<br><br>I love reading stuff (aside from API
+                documentations) that relates to Business, Management, Psychology,
+                Strategy, Computer Science, Tech, Manga. Just like most dev, I also love memes (who would'nt) and
+                anime. I play DotA 2 in my extra super spare time (which is very rare lately).<br><br>Drop me a message
+                for more information.
+            </p>
+        </section>
+
+        <footer>
+            <ul class="social">
+                <li><a class="linkedin" href="https://linkedin.com/in/romilonin/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a class="skype" href="skype:romil.pvs?userinfo"><i class="fab fa-skype"></i></a></li>
+                <li><a class="messenger" href="http://m.me/littleomie"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a class="email" href="mailto:iamromilonin@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </footer>
+    </main>
+
 </body>
+
 </html>
