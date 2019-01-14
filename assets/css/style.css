@@ -105,7 +105,7 @@ header>h1 {
 
 #btn-more {
     position: absolute;
-    bottom: calc(50% - 200px);
+    bottom: calc(50% - 250px);
     margin-top: 30px;
     font-size: 3em;
     color: #d3d3d3;
@@ -129,6 +129,18 @@ section {
 
 section>article {
     margin-top: 40px;
+}
+
+.me-name {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.me-description {
+    font-size: 1.5em;
+    margin: 10px 10px 30px 10px;
 }
 
 /* CARDS */
