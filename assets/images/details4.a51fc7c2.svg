@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399.973 364.899">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5, .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-1, .cls-5 {
+        stroke: #da4453;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #89216b;
+      }
+
+      .cls-2, .cls-6 {
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #da4453;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_739" data-name="Group 739" transform="translate(-1014.528 -2309.101)">
+    <g id="Group_50" data-name="Group 50" transform="translate(1408.755 2391.046) rotate(45)">
+      <line id="Line_7" data-name="Line 7" class="cls-1" x1="7.49" y2="3.48" transform="translate(0 2.022)"/>
+      <line id="Line_8" data-name="Line 8" class="cls-1" x1="3.447" y1="7.49" transform="translate(2.022)"/>
+    </g>
+    <g id="Group_51" data-name="Group 51" transform="translate(1020.296 2645.046) rotate(45)">
+      <line id="Line_7-2" data-name="Line 7" class="cls-1" x1="7.49" y2="3.48" transform="translate(0 2.022)"/>
+      <line id="Line_8-2" data-name="Line 8" class="cls-1" x1="3.447" y1="7.49" transform="translate(2.022)"/>
+    </g>
+    <g id="Group_49" data-name="Group 49" transform="translate(1251.755 2311.046) rotate(45)">
+      <line id="Line_7-3" data-name="Line 7" class="cls-2" x1="9.493" y2="4.411" transform="translate(0 2.562)"/>
+      <line id="Line_8-3" data-name="Line 8" class="cls-2" x1="4.369" y1="9.493" transform="translate(2.562)"/>
+    </g>
+    <circle id="Ellipse_75" data-name="Ellipse 75" class="cls-3" cx="3" cy="3" r="3" transform="translate(1279 2546)"/>
+    <circle id="Ellipse_73" data-name="Ellipse 73" class="cls-3" cx="3" cy="3" r="3" transform="translate(1079 2492)"/>
+    <circle id="Ellipse_74" data-name="Ellipse 74" class="cls-4" cx="2" cy="2" r="2" transform="translate(1268 2670)"/>
+    <g id="Ellipse_71" data-name="Ellipse 71" class="cls-5" transform="translate(1066 2400)">
+      <circle class="cls-7" cx="4" cy="4" r="4"/>
+      <circle class="cls-8" cx="4" cy="4" r="3"/>
+    </g>
+    <g id="Ellipse_72" data-name="Ellipse 72" class="cls-6" transform="translate(1100 2597)">
+      <circle class="cls-7" cx="7.5" cy="7.5" r="7.5"/>
+      <circle class="cls-8" cx="7.5" cy="7.5" r="5.5"/>
+    </g>
+  </g>
+</svg>
