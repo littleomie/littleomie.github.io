@@ -1,3 +1,5 @@
+
+
 .oswald,
 h1,
 h2,
@@ -32,7 +34,9 @@ html {
 }
 
 html * {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -72,6 +76,9 @@ a:visited {
 .thin a {
     font-weight: 500;
 }
+
+.bold { font-weight: bold }
+.black { font-weight: 900 }
 
 .divider {
     position: relative;
@@ -133,7 +140,6 @@ section>article {
 
 .me-name {
     font-size: 3em;
-    font-weight: 600;
     margin-bottom: 10px;
     line-height: 1;
 }
